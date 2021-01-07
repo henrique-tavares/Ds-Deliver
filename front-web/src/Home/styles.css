@@ -51,7 +51,7 @@
 }
 
 .home-image svg {
-  width: 100%;
+  width: 100% !important;
 }
 
 @media only screen and (max-width: 768px) {
@@ -84,5 +84,12 @@
 
   .home-image svg {
     width: 80%;
+  }
+}
+
+@media (max-height: 700px) {
+  .home-container {
+    height: auto;
+    margin-bottom: 30px;
   }
 }
