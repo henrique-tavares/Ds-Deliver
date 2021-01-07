@@ -1,5 +1,3 @@
-import './styles.css'
-
 function StepsHeader() {
   return (
     <header className="orders-steps-container">
@@ -21,7 +19,7 @@ function StepsHeader() {
         </ul>
       </div>
     </header>
-  )
+  );
 }
 
 export default StepsHeader;
