@@ -18,8 +18,8 @@ type Props = {
 };
 
 const initalPosition = {
-  lat: -15.8882056,
-  lng: -48.122219
+  lat: -15.841337,
+  lng: -48.0507551
 };
 
 function OrderLocation({ onChangeLocation }: Props) {
