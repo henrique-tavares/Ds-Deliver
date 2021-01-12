@@ -41,10 +41,10 @@ export default function OrderCard({ order }: Props) {
 
 const styles = StyleSheet.create({
   container: {
-    marginTop: '8%',
+    marginTop: '3%',
     marginLeft: '2%',
     marginRight: '2%',
-    marginBottom: '2%',
+    marginBottom: '3%',
     padding: 15,
     backgroundColor: '#FFF',
     shadowOpacity: 0.25,
